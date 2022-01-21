@@ -26,6 +26,7 @@
                     <a class="no-underline hover:underline px-1" href="{{ route('login') }}">Login</a>
                     <a class="no-underline hover:underline px-1" href="{{ route('register') }}">Register</a>
                 @else
+                    <a class="no-underline hover:underline px-1" href="/feed">Feed</a>
                     <a class="no-underline hover:underline px-1" href="/profile/{{ auth()->user()->id }}">Profile</a>
                     <a href="{{ route('logout') }}"
                         class="no-underline hover:underline px-1"

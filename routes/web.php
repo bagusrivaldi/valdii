@@ -34,3 +34,7 @@ Route::middleware('auth')->group(function () {
     Route::get("/profile/{id}/edit", [ProfileController::class, 'edit'])->name('edit');
     Route::patch("/profile/{id}", [ProfileController::class, 'update']);
 });
+
+Route::group(['middleware' => ['auth']], function () {
+    Route::get('/feed', 'FeedsController@newsFeed');
+});
