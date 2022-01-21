@@ -17,6 +17,6 @@ php artisan serve
 
 
 
-##test upload foto sudah bisa, dan menampilkan secara grid
+## test upload foto sudah bisa, dan menampilkan secara grid
 
-##untuk tampilan feed belum
+## untuk tampilan feed belum
