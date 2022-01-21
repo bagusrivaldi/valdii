@@ -15,6 +15,8 @@ php artisan storage:link
 php artisan serve
 
 
-#test upload foto sudah bisa, dan menampilkan secara grid
 
-#untuk tampilan feed belum
+
+##test upload foto sudah bisa, dan menampilkan secara grid
+
+##untuk tampilan feed belum
